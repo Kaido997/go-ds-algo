@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.23.1'
+    - name: clean
+      run: go clean
 
     - name: Build
       run: go build -v ./src
