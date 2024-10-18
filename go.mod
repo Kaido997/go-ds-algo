@@ -1,3 +1,3 @@
-module gods/datastructs
+module github.com/kaido997/datastructs
 
 go 1.23.1
